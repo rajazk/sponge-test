@@ -1,0 +1,85 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+.top-logo {
+  margin-top: 20px;
+}
+.top-logo img {
+  width: 130px;
+}
+
+.slick-dots {
+  bottom: -35px;
+}
+
+.Slick-crousal-wrapper {
+  margin: 25px 0px;
+}
+.Slick-crousal-wrapper {
+  padding: 16px 60px;
+}
+img {
+  margin: 0px;
+}
+.slick-slide img {
+  display: inline !important;
+  width: 280px;
+  height: 280px;
+}
+.form-wrapper {
+  /* display: flex;
+  justify-content: center; */
+  padding: 10px 60px;
+  background-color: bisque;
+}
+.form-wrapper .form-container {
+  /* width: 900px; */
+  margin: 60px;
+}
+.form-group {
+  text-align: initial;
+}
+.form-group input {
+  width: 100%;
+}
+.footer-wrapper {
+  padding: 20px 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-wrapper img {
+  width: 100%;
+  margin: 5px;
+}
+
+.footer-wrapper .peacock h2, p{
+  text-align: left;
+}
+.slick-prev:before {
+  color: blue;
+  font-size: 30px;
+}
+
+.slick-next:before {
+  color: blue;
+  font-size: 30px;
+}
+@media screen and (max-width: 600px) {
+  .form-wrapper {
+    padding: 10px;
+  }
+  .form-wrapper .form-container {
+    margin: 0px;
+  }
+  .slick-slide img {
+    display: inline !important;
+    width: 230px;
+    height: 230px;
+    margin: 5px;
+  }
+}
